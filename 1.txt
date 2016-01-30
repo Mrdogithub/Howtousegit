@@ -14,6 +14,10 @@ cd myworkspace
 3.在本地运行
 git remote add origin githuburl  通过这条命令可以把已有的本地仓库与github上的仓库进行关联。之后，可以把本地的内容推送到 git hub 仓库
 
-4.git push
+4.git push -u origin master
+在我们第一推送master分值事，加上了-u参数，git不但会把本地的mater分支与内容推送到远程的新的master分支，还会把本地的mater分支和远程的master分支关联。
+
+5.第一push 会要求输入用户名和密码
+========================
 
 
