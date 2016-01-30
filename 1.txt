@@ -1,1 +1,19 @@
-hi git 
+1.如果已经有了github帐号，如何创建另一个项目。
+-要先去github上右上角找到“create a new repository” 创建一个新仓库。
+-在repository name中输入名字，生成一个新的仓库地址
+这个时候仓库地址已经生成，并且是一个空仓库，里面没有任何内容。
+我们可以有两种选择，第一:可以通过git clone 命令，在本机克隆项目；第二：把本地已有内容推送到刚创建的仓库。
+这里我们先进行第二步。
+
+2准备工作
+创建自己工作目录
+cd myworkspace
+	git init
+通过git init 初始化git管理，在myworkshop中所有的文件git init 命令执行后，都可被git管理。包括文件的修改，追踪，甚至还原。
+
+3.在本地运行
+git remote add origin githuburl  通过这条命令可以把已有的本地仓库与github上的仓库进行关联。之后，可以把本地的内容推送到 git hub 仓库
+
+4.git push
+
+
